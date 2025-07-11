@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+chromadb
+sentence-transformers
+python-dotenv
+
+# Added for gemina and google AI services
+# langchain-google-genai
+
+# Added from video
+# chuning-evaluation @ https://github.com/brandonstarxel/chunking_evaluation.git

@@ -1,0 +1,5 @@
+.env
+venv
+app/uploaded-files/
+app/temp_uploads
+app/chroma_lanchain_db
