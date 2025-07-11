@@ -1,5 +1,5 @@
 .env
 venv
+app/chroma_db/
+app/__pycache__/
 app/uploaded-files/
-app/temp_uploads
-app/chroma_lanchain_db

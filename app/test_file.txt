@@ -1,0 +1,9 @@
+This is a test file. It contains several sentences.
+
+Each sentence is separated by a new line.
+
+Just to see what the functions made in out project are
+
+doing and how they work for better error handling 
+
+We are testing how the chunking behaves.

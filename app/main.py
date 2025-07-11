@@ -13,9 +13,9 @@ uploaded_file = st.file_uploader("Upload a .txt file", type="txt")
 
 if uploaded_file:
     with open("app/uploaded.txt", "wb") as f:
-        #Make a copy of your file and save it to the app folder
+        # Make a copy of your file and save it to the app folder
         f.write(uploaded_file.read())
-    vectorstore = initialize_vectorstore("app/uploaded-files/uploaded.txt")
+    vectorstore = initialize_vectorstore("app/uploaded.txt")
 else:
     st.warning("Please upload a .txt file dockto begin.")
     st.stop()
@@ -27,4 +27,4 @@ if query:
     st.write(answer)
 
 if st.button("Clear Chat"):
-    st.experimental_rerun()
+    st.rerun()
