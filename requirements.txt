@@ -4,6 +4,8 @@ langchain-openai
 langchain-community
 chromadb
 sentence-transformers
+huggingface-hub
+
 python-dotenv
 
 # Added for gemina and google AI services
