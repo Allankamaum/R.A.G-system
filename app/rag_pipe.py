@@ -9,6 +9,10 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 load_dotenv()
 
+# Removed openAi in favor of huggingfaceembeddings 
+# Why? well i ran out of my quota for openAI
+
+# Uncomment to use with openAI
 # llm = ChatOpenAI(model_name="gpt-3.5-turbo") 
 # embeddings = OpenAIEmbeddings()  
 
