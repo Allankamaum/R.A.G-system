@@ -16,6 +16,8 @@ if uploaded_file:
         # Make a copy of your file and save it to the app folder
         f.write(uploaded_file.read())
     vectorstore = initialize_vectorstore("app/uploaded.txt")
+
+    st.success("✅ Document uploaded and processed!")
 else:
     st.warning("Please upload a .txt file dockto begin.")
     st.stop()
@@ -26,5 +28,6 @@ if query:
     st.write("### Answer:")
     st.write(answer)
 
-if st.button("Clear Chat"):
+if "chat_history" in st.session_state:
+    del st.session_state["chat_history"]
     st.rerun()
